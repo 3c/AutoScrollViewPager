@@ -1,8 +1,9 @@
 AutoScrollViewPager
 ===================
-需求：自动轮播的viewpager，且无限循环。 但若当size==1时，不可划动		
+需求：<br/>
+自动轮播的viewpager，且无限循环。 但若当size==1时，不可划动		
 
-用法：
+用法：<br/>
  viewPager = (AutoScrollViewPager) findViewById(R.id.pager);<br/>
  viewPager.setInterval(3000);//设置自动轮播间隔<br/>
  viewPager.setAdapter(getSupportFragmentManager(),fragmentPagerAdapter);//必须有两个参数，第二个是FragmentPagerAdapter<br/>
@@ -10,7 +11,7 @@ AutoScrollViewPager
  viewPager.startAutoLoop();  //开始自动轮播。 一般放在onResume里<br/>
  viewPager.stopAutoLoop();   //停止自动轮播。 一般放在onPause 里<br/>
 
-参考资料：
+参考资料：<br/>
 http://www.cnblogs.com/moqi2013/p/3547816.html<br/>
 https://github.com/antonyt/InfiniteViewPager<br/>
 https://github.com/Trinea/android-auto-scroll-view-pager<br/>
