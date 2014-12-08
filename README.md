@@ -1,6 +1,6 @@
 AutoScrollViewPager
 ===================
-需求：自动轮播的viewpager，且无限循环。 但若当size==1时，不可划动
+需求：自动轮播的viewpager，且无限循环。 但若当size==1时，不可划动		
 
 用法：
  viewPager = (AutoScrollViewPager) findViewById(R.id.pager);
