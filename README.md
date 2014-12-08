@@ -6,7 +6,7 @@ AutoScrollViewPager
 用法：<br/>
  viewPager = (AutoScrollViewPager) findViewById(R.id.pager);<br/>
  viewPager.setInterval(3000);//设置自动轮播间隔<br/>
- viewPager.setAdapter(getSupportFragmentManager(),fragmentPagerAdapter);//必须有两个参数，第二个是FragmentPagerAdapter<br/>
+ viewPager.setAdapter(getSupportFragmentManager(),fragmentPagerAdapter);//必须有两个参数<br/>
  viewPager.setOnPageChangeListener(new ViewPager.OnPageChangeListener())// 这个监听必须有<br/>
  viewPager.startAutoLoop();  //开始自动轮播。 一般放在onResume里<br/>
  viewPager.stopAutoLoop();   //停止自动轮播。 一般放在onPause 里<br/>
